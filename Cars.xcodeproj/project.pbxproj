@@ -25,6 +25,7 @@
 		E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109712B3F22F100BED358 /* DetailCarView.swift */; };
 		E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109732B3F299B00BED358 /* CarFormViewModel.swift */; };
 		E95109762B3F2D4300BED358 /* CarFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109752B3F2D4300BED358 /* CarFormView.swift */; };
+		E95109782B3F32E900BED358 /* CarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109772B3F32E900BED358 /* CarCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E95109712B3F22F100BED358 /* DetailCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarView.swift; sourceTree = "<group>"; };
 		E95109732B3F299B00BED358 /* CarFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormViewModel.swift; sourceTree = "<group>"; };
 		E95109752B3F2D4300BED358 /* CarFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormView.swift; sourceTree = "<group>"; };
+		E95109772B3F32E900BED358 /* CarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				E951095A2B3F00E900BED358 /* HomeView.swift */,
 				E95109752B3F2D4300BED358 /* CarFormView.swift */,
 				E95109712B3F22F100BED358 /* DetailCarView.swift */,
+				E95109772B3F32E900BED358 /* CarCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
 				E95109762B3F2D4300BED358 /* CarFormView.swift in Sources */,
+				E95109782B3F32E900BED358 /* CarCellView.swift in Sources */,
 				E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */,
 				E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */,
 				E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */,
