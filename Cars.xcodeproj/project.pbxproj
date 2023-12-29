@@ -51,9 +51,15 @@
 		E951093F2B3EF7D000BED358 /* Cars */ = {
 			isa = PBXGroup;
 			children = (
-				E95109402B3EF7D000BED358 /* CarsApp.swift */,
-				E95109422B3EF7D000BED358 /* ContentView.swift */,
-				E95109442B3EF7D200BED358 /* Assets.xcassets */,
+				E951094E2B3EF9EC00BED358 /* Model */,
+				E951094F2B3EFA1E00BED358 /* View */,
+				E95109502B3EFA2700BED358 /* ViewModel */,
+				E95109572B3EFAAB00BED358 /* Services */,
+				E95109562B3EFAA300BED358 /* Helpers */,
+				E95109552B3EFA9600BED358 /* CustomComponents */,
+				E95109512B3EFA2F00BED358 /* UIExtensions */,
+				E95109522B3EFA3700BED358 /* Extensions */,
+				E95109532B3EFA4100BED358 /* Resources */,
 				E95109462B3EF7D200BED358 /* Preview Content */,
 			);
 			path = Cars;
@@ -65,6 +71,80 @@
 				E95109472B3EF7D200BED358 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E951094E2B3EF9EC00BED358 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E951094F2B3EFA1E00BED358 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E95109422B3EF7D000BED358 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E95109502B3EFA2700BED358 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E95109512B3EFA2F00BED358 /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		E95109522B3EFA3700BED358 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E95109532B3EFA4100BED358 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E95109542B3EFA4B00BED358 /* Assets */,
+				E95109402B3EF7D000BED358 /* CarsApp.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E95109542B3EFA4B00BED358 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E95109442B3EF7D200BED358 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E95109552B3EFA9600BED358 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		E95109562B3EFAA300BED358 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E95109572B3EFAAB00BED358 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
