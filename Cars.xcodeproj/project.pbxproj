@@ -13,6 +13,8 @@
 		E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109582B3EFE5A00BED358 /* SplashView.swift */; };
 		E951095B2B3F00E900BED358 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951095A2B3F00E900BED358 /* HomeView.swift */; };
 		E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E951095C2B3F01A900BED358 /* Car.xcdatamodeld */; };
+		E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951095F2B3F02C000BED358 /* Date+Ex.swift */; };
+		E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109612B3F02CA00BED358 /* Color+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		E95109582B3EFE5A00BED358 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		E951095A2B3F00E900BED358 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E951095D2B3F01A900BED358 /* Car.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car.xcdatamodel; sourceTree = "<group>"; };
+		E951095F2B3F02C000BED358 /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
+		E95109612B3F02CA00BED358 /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		E95109522B3EFA3700BED358 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				E951095F2B3F02C000BED358 /* Date+Ex.swift */,
+				E95109612B3F02CA00BED358 /* Color+Ex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -225,8 +231,10 @@
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
+				E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */,
 				E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */,
 				E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */,
+				E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
