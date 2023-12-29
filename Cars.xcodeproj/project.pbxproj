@@ -15,6 +15,10 @@
 		E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E951095C2B3F01A900BED358 /* Car.xcdatamodeld */; };
 		E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951095F2B3F02C000BED358 /* Date+Ex.swift */; };
 		E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109612B3F02CA00BED358 /* Color+Ex.swift */; };
+		E95109642B3F067F00BED358 /* YearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109632B3F067F00BED358 /* YearPicker.swift */; };
+		E95109662B3F069000BED358 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109652B3F069000BED358 /* CustomTextField.swift */; };
+		E95109682B3F06A400BED358 /* CustomCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109672B3F06A400BED358 /* CustomCornerShape.swift */; };
+		E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		E951095D2B3F01A900BED358 /* Car.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car.xcdatamodel; sourceTree = "<group>"; };
 		E951095F2B3F02C000BED358 /* Date+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ex.swift"; sourceTree = "<group>"; };
 		E95109612B3F02CA00BED358 /* Color+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ex.swift"; sourceTree = "<group>"; };
+		E95109632B3F067F00BED358 /* YearPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPicker.swift; sourceTree = "<group>"; };
+		E95109652B3F069000BED358 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E95109672B3F06A400BED358 /* CustomCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerShape.swift; sourceTree = "<group>"; };
+		E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellDragGestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 		E95109552B3EFA9600BED358 /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				E95109672B3F06A400BED358 /* CustomCornerShape.swift */,
+				E95109652B3F069000BED358 /* CustomTextField.swift */,
+				E95109632B3F067F00BED358 /* YearPicker.swift */,
+				E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -230,9 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
+				E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
+				E95109682B3F06A400BED358 /* CustomCornerShape.swift in Sources */,
 				E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */,
 				E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */,
+				E95109662B3F069000BED358 /* CustomTextField.swift in Sources */,
+				E95109642B3F067F00BED358 /* YearPicker.swift in Sources */,
 				E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */,
 				E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */,
 			);
