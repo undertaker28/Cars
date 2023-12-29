@@ -12,6 +12,7 @@
 		E95109482B3EF7D200BED358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95109472B3EF7D200BED358 /* Preview Assets.xcassets */; };
 		E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109582B3EFE5A00BED358 /* SplashView.swift */; };
 		E951095B2B3F00E900BED358 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951095A2B3F00E900BED358 /* HomeView.swift */; };
+		E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E951095C2B3F01A900BED358 /* Car.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E95109472B3EF7D200BED358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E95109582B3EFE5A00BED358 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		E951095A2B3F00E900BED358 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E951095D2B3F01A900BED358 /* Car.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		E951094E2B3EF9EC00BED358 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E951095C2B3F01A900BED358 /* Car.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
+				E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */,
 				E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +432,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E951095C2B3F01A900BED358 /* Car.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E951095D2B3F01A900BED358 /* Car.xcdatamodel */,
+			);
+			currentVersion = E951095D2B3F01A900BED358 /* Car.xcdatamodel */;
+			path = Car.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E95109352B3EF7D000BED358 /* Project object */;
 }
