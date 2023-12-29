@@ -22,6 +22,7 @@
 		E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096B2B3F127200BED358 /* ImagePicker.swift */; };
 		E951096E2B3F159B00BED358 /* View+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096D2B3F159B00BED358 /* View+Ex.swift */; };
 		E95109702B3F227300BED358 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096F2B3F227300BED358 /* PersistenceController.swift */; };
+		E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109712B3F22F100BED358 /* DetailCarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		E951096B2B3F127200BED358 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E951096D2B3F159B00BED358 /* View+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ex.swift"; sourceTree = "<group>"; };
 		E951096F2B3F227300BED358 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		E95109712B3F22F100BED358 /* DetailCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				E95109582B3EFE5A00BED358 /* SplashView.swift */,
 				E951095A2B3F00E900BED358 /* HomeView.swift */,
+				E95109712B3F22F100BED358 /* DetailCarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
 				E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */,
+				E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
 				E95109682B3F06A400BED358 /* CustomCornerShape.swift in Sources */,
 				E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */,
