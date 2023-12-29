@@ -19,6 +19,7 @@
 		E95109662B3F069000BED358 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109652B3F069000BED358 /* CustomTextField.swift */; };
 		E95109682B3F06A400BED358 /* CustomCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109672B3F06A400BED358 /* CustomCornerShape.swift */; };
 		E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */; };
+		E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096B2B3F127200BED358 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E95109652B3F069000BED358 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		E95109672B3F06A400BED358 /* CustomCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCornerShape.swift; sourceTree = "<group>"; };
 		E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellDragGestureView.swift; sourceTree = "<group>"; };
+		E951096B2B3F127200BED358 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		E95109562B3EFAA300BED358 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E951096B2B3F127200BED358 /* ImagePicker.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */,
 				E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */,
 				E95109662B3F069000BED358 /* CustomTextField.swift in Sources */,
+				E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */,
 				E95109642B3F067F00BED358 /* YearPicker.swift in Sources */,
 				E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */,
 				E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */,
