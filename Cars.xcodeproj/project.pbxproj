@@ -21,6 +21,7 @@
 		E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */; };
 		E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096B2B3F127200BED358 /* ImagePicker.swift */; };
 		E951096E2B3F159B00BED358 /* View+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096D2B3F159B00BED358 /* View+Ex.swift */; };
+		E95109702B3F227300BED358 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096F2B3F227300BED358 /* PersistenceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellDragGestureView.swift; sourceTree = "<group>"; };
 		E951096B2B3F127200BED358 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		E951096D2B3F159B00BED358 /* View+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ex.swift"; sourceTree = "<group>"; };
+		E951096F2B3F227300BED358 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		E95109572B3EFAAB00BED358 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E951096F2B3F227300BED358 /* PersistenceController.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */,
 				E95109642B3F067F00BED358 /* YearPicker.swift in Sources */,
 				E95109592B3EFE5A00BED358 /* SplashView.swift in Sources */,
+				E95109702B3F227300BED358 /* PersistenceController.swift in Sources */,
 				E95109602B3F02C000BED358 /* Date+Ex.swift in Sources */,
 				E951096E2B3F159B00BED358 /* View+Ex.swift in Sources */,
 			);
