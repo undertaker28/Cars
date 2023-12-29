@@ -23,6 +23,7 @@
 		E951096E2B3F159B00BED358 /* View+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096D2B3F159B00BED358 /* View+Ex.swift */; };
 		E95109702B3F227300BED358 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951096F2B3F227300BED358 /* PersistenceController.swift */; };
 		E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109712B3F22F100BED358 /* DetailCarView.swift */; };
+		E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109732B3F299B00BED358 /* CarFormViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		E951096D2B3F159B00BED358 /* View+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ex.swift"; sourceTree = "<group>"; };
 		E951096F2B3F227300BED358 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		E95109712B3F22F100BED358 /* DetailCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCarView.swift; sourceTree = "<group>"; };
+		E95109732B3F299B00BED358 /* CarFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		E95109502B3EFA2700BED358 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E95109732B3F299B00BED358 /* CarFormViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E951095B2B3F00E900BED358 /* HomeView.swift in Sources */,
+				E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */,
 				E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */,
 				E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
