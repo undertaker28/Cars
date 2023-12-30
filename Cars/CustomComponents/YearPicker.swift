@@ -36,7 +36,7 @@ struct YearPicker: View {
         .frame(maxWidth: .infinity)
         .padding()
         .foregroundColor(Color("Element"))
-        .background(Color("Purple"))
+        .background(.purple)
         .cornerRadius(15)
     }
 }

@@ -58,7 +58,7 @@ struct CarCellView: View {
         }
         .frame(maxWidth: .infinity)
         .frame(height: 290)
-        .background(Color("Purple"))
+        .background(.purple)
         .cornerRadius(30)
         .padding(.horizontal, 20)
     }

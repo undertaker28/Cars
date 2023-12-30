@@ -55,14 +55,14 @@ struct CarFormView: View {
                     .padding()
                     .fontWeight(.bold)
                     .foregroundColor(Color("Element"))
-                    .background(Color("Purple"))
+                    .background(.purple)
                     .cornerRadius(15)
                 
                 Button("Select Image") {
                     carFormViewModel.isImagePickerPresented = true
                 }
                 .padding()
-                .background(Color("Purple"))
+                .background(.purple)
                 .cornerRadius(10)
                 .fontWeight(.bold)
                 .foregroundColor(Color("Element"))

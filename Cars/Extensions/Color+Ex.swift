@@ -15,7 +15,7 @@ fileprivate extension Color {
         var g: CGFloat = 0
         var b: CGFloat = 0
         var a: CGFloat = 0
-
+        
         guard SystemColor(self).getRed(&r, green: &g, blue: &b, alpha: &a) else {
             return nil
         }
@@ -37,7 +37,7 @@ extension Color: Codable {
         
         self.init(red: r, green: g, blue: b)
     }
-
+    
     public func encode(to encoder: Encoder) throws {
         guard let colorComponents = self.colorComponents else {
             return

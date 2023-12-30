@@ -26,6 +26,7 @@
 		E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109732B3F299B00BED358 /* CarFormViewModel.swift */; };
 		E95109762B3F2D4300BED358 /* CarFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109752B3F2D4300BED358 /* CarFormView.swift */; };
 		E95109782B3F32E900BED358 /* CarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109772B3F32E900BED358 /* CarCellView.swift */; };
+		E9ADA04E2B40A88E00CE696A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADA04D2B40A88E00CE696A /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		E95109732B3F299B00BED358 /* CarFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormViewModel.swift; sourceTree = "<group>"; };
 		E95109752B3F2D4300BED358 /* CarFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormView.swift; sourceTree = "<group>"; };
 		E95109772B3F32E900BED358 /* CarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellView.swift; sourceTree = "<group>"; };
+		E9ADA04D2B40A88E00CE696A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				E95109442B3EF7D200BED358 /* Assets.xcassets */,
+				E9ADA04D2B40A88E00CE696A /* Colors.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9ADA04E2B40A88E00CE696A /* Colors.xcassets in Resources */,
 				E95109482B3EF7D200BED358 /* Preview Assets.xcassets in Resources */,
 				E95109452B3EF7D200BED358 /* Assets.xcassets in Resources */,
 			);

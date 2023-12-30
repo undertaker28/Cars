@@ -14,7 +14,7 @@ struct DetailCarView: View {
     
     var body: some View {
         ZStack {
-            Color("Purple")
+            Color.purple
                 .ignoresSafeArea()
             
             Color("Background")
@@ -49,11 +49,11 @@ struct DetailCarView: View {
                     .padding(.bottom, 15)
                 
                 VStack(alignment: .leading, spacing: 6) {
-                    infoRow(firstText: "Producer:", secondText: car.producer ?? "None", fontSize: 24, colorForFirstText: Color("LightPurple"))
+                    infoRow(firstText: "Producer:", secondText: car.producer ?? "None", fontSize: 24, colorForFirstText: .purple)
                     
-                    infoRow(firstText: "Year:", secondText: car.year ?? "2000", fontSize: 24, colorForFirstText: Color("LightPurple"))
+                    infoRow(firstText: "Year:", secondText: car.year ?? "2000", fontSize: 24, colorForFirstText: .purple)
                     
-                    infoRow(firstText: "Color:", secondText: car.colorName ?? "Black", fontSize: 24, colorForFirstText: Color("LightPurple"))
+                    infoRow(firstText: "Color:", secondText: car.colorName ?? "Black", fontSize: 24, colorForFirstText: .purple)
                 }
                 .padding(.leading, 20)
                 .frame(maxWidth: .infinity, alignment: .leading)
