@@ -19,7 +19,7 @@ final class CarFormViewModel: ObservableObject {
     @Published var model: String = ""
     @Published var producer: String = ""
     @Published var selectedDate: Date = Date.now
-    @Published var color: Color = Color.black
+    @Published var color: Color = .black
     @Published var selectedImage: UIImage?
     @Published var isImagePickerPresented = false
     
@@ -38,8 +38,7 @@ final class CarFormViewModel: ObservableObject {
             selectedDate = Calendar.current.date(from: components)!
             
             do {
-                let decoder = JSONDecoder()
-                color = try decoder.decode(Color.self, from: car.colorData ?? Data())
+                color = try SerializationService.decodeColor(from: car.colorData ?? Data())
             } catch {
                 color = .cyan
             }
@@ -51,13 +50,7 @@ final class CarFormViewModel: ObservableObject {
     }
     
     func saveCar(context: NSManagedObjectContext) {
-        let encoder = JSONEncoder()
-        var colorData = Data()
-        do {
-            colorData = try encoder.encode(color)
-        } catch {
-            print("Error encoding color: \(error)")
-        }
+        let colorData = SerializationService.encodeColor(color)
         
         switch mode {
         case .add:

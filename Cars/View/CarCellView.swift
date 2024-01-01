@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CarCellView: View {
     @ObservedObject var car: Car
-
+    
     var body: some View {
         VStack {
             HStack {
@@ -20,17 +20,15 @@ struct CarCellView: View {
                         .font(.system(size: 26, weight: .bold, design: .monospaced))
                 }
                 .padding()
-                .foregroundColor(Color("Element"))
                 
                 Spacer()
-            
+                
                 NavigationLink {
                     CarFormView(carFormViewModel: CarFormViewModel(mode: .edit(car)))
                 } label: {
                     Image(systemName: "pencil")
                         .font(.system(size: 15, weight: .bold))
                         .padding(8)
-                        .foregroundColor(Color("Element"))
                         .background(Color("Background"))
                         .clipShape(Circle())
                 }
@@ -38,26 +36,14 @@ struct CarCellView: View {
             }
             .padding(.bottom, 5)
             
-            if let image = UIImage(data: car.picture ?? Data()) {
-                Image(uiImage: image)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(7)
-                    .padding()
-                    .frame(width: 340, height: 200)
-                    .offset(y: -5)
-            } else {
-                Image("NoImage")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(7)
-                    .padding()
-                    .frame(width: 340, height: 200)
-                    .offset(y: -5)
-            }
+            CarImageView(uiImage: UIImage(data: car.picture ?? Data()))
+                .padding()
+                .frame(width: 340, height: 200)
+                .offset(y: -5)
         }
         .frame(maxWidth: .infinity)
         .frame(height: 290)
+        .foregroundColor(Color("Element"))
         .background(.purple)
         .cornerRadius(30)
         .padding(.horizontal, 20)

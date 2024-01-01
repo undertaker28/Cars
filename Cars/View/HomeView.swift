@@ -10,7 +10,7 @@ import CoreData
 
 struct HomeView: View {
     @Environment(\.managedObjectContext) private var managedObjContext
-
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Car.model, ascending: true)],
         animation: .default)
@@ -27,12 +27,12 @@ struct HomeView: View {
             }
         }
     }
-
+    
     var body: some View {
         NavigationView {
             ZStack {
                 Color("Background").edgesIgnoringSafeArea(.all)
-
+                
                 ScrollView(showsIndicators: false) {
                     LazyVStack(spacing: 30) {
                         ForEach(filteredCars) { car in

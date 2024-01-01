@@ -27,6 +27,8 @@
 		E95109762B3F2D4300BED358 /* CarFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109752B3F2D4300BED358 /* CarFormView.swift */; };
 		E95109782B3F32E900BED358 /* CarCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95109772B3F32E900BED358 /* CarCellView.swift */; };
 		E9ADA04E2B40A88E00CE696A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ADA04D2B40A88E00CE696A /* Colors.xcassets */; };
+		E9ADA0502B40B4BA00CE696A /* CarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADA04F2B40B4BA00CE696A /* CarImageView.swift */; };
+		E9EC5F282B4355EB00588BE8 /* SerializationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC5F272B4355EB00588BE8 /* SerializationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,8 @@
 		E95109752B3F2D4300BED358 /* CarFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormView.swift; sourceTree = "<group>"; };
 		E95109772B3F32E900BED358 /* CarCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellView.swift; sourceTree = "<group>"; };
 		E9ADA04D2B40A88E00CE696A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E9ADA04F2B40B4BA00CE696A /* CarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarImageView.swift; sourceTree = "<group>"; };
+		E9EC5F272B4355EB00588BE8 /* SerializationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 				E95109652B3F069000BED358 /* CustomTextField.swift */,
 				E95109632B3F067F00BED358 /* YearPicker.swift */,
 				E95109692B3F0D8D00BED358 /* CarCellDragGestureView.swift */,
+				E9ADA04F2B40B4BA00CE696A /* CarImageView.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				E951096F2B3F227300BED358 /* PersistenceController.swift */,
+				E9EC5F272B4355EB00588BE8 /* SerializationService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -272,9 +278,11 @@
 				E95109742B3F299B00BED358 /* CarFormViewModel.swift in Sources */,
 				E951096A2B3F0D8D00BED358 /* CarCellDragGestureView.swift in Sources */,
 				E95109722B3F22F100BED358 /* DetailCarView.swift in Sources */,
+				E9EC5F282B4355EB00588BE8 /* SerializationService.swift in Sources */,
 				E95109412B3EF7D000BED358 /* CarsApp.swift in Sources */,
 				E95109682B3F06A400BED358 /* CustomCornerShape.swift in Sources */,
 				E95109622B3F02CA00BED358 /* Color+Ex.swift in Sources */,
+				E9ADA0502B40B4BA00CE696A /* CarImageView.swift in Sources */,
 				E951095E2B3F01A900BED358 /* Car.xcdatamodeld in Sources */,
 				E95109662B3F069000BED358 /* CustomTextField.swift in Sources */,
 				E951096C2B3F127200BED358 /* ImagePicker.swift in Sources */,

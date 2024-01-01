@@ -18,11 +18,11 @@ struct SplashView: View {
                 Color("Background")
                     .ignoresSafeArea()
                 
-                    Image("Icon")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 160, height: 160, alignment: .center)
-                        .clipShape(RoundedRectangle(cornerRadius: 20))
+                Image("Icon")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 160, height: 160, alignment: .center)
+                    .clipShape(RoundedRectangle(cornerRadius: 20))
             }
             .onAppear {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.6) {

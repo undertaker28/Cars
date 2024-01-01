@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DetailCarView: View {
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.dismiss) private var dismiss
     
     var car: Car
     
@@ -28,19 +28,9 @@ struct DetailCarView: View {
                     .fontWeight(.bold)
                     .textCase(.uppercase)
                 
-                if let image = UIImage(data: car.picture ?? Data()) {
-                    Image(uiImage: image)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 300, height: 200)
-                } else {
-                    Image("NoImage")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 300, height: 200)
-                }
+                CarImageView(uiImage: UIImage(data: car.picture ?? Data()))
+                    .frame(width: 300, height: 200)
             }
-            .foregroundColor(Color("Element"))
             .offset(y: -240)
             
             VStack {
@@ -58,8 +48,9 @@ struct DetailCarView: View {
                 .padding(.leading, 20)
                 .frame(maxWidth: .infinity, alignment: .leading)
             }
-            .foregroundColor(Color("Element"))
             .offset(y: -10)
         }
+        .foregroundColor(Color("Element"))
+        .navigationBarTitleDisplayMode(.inline)
     }
 }

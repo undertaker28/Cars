@@ -26,21 +26,21 @@ struct CarCellDragGestureView: ViewModifier {
                             slideOffset = dragValue.translation
                         }
                     })
-                    .onEnded({ dragValue in
-                        if dragValue.translation.width < 0 {
-                            withAnimation(.linear) {
-                                self.position = -55
-                                deleteButtonIsHidden = false
+                        .onEnded({ dragValue in
+                            if dragValue.translation.width < 0 {
+                                withAnimation(.linear) {
+                                    self.position = -55
+                                    deleteButtonIsHidden = false
+                                }
+                            } else {
+                                withAnimation(.linear) {
+                                    self.position = 0
+                                    deleteButtonIsHidden = true
+                                }
                             }
-                        } else {
-                            withAnimation(.linear) {
-                                self.position = 0
-                                deleteButtonIsHidden = true
-                            }
-                        }
-                    })
+                        })
                 )
-                .animation(.linear, value: 1)
+                .animation(.linear)
             
             if !deleteButtonIsHidden {
                 HStack(spacing: 0) {

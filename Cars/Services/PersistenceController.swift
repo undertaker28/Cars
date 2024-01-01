@@ -10,7 +10,7 @@ import CoreData
 struct PersistenceController {
     static let shared = PersistenceController()
     let container: NSPersistentContainer
-
+    
     init(inMemory: Bool = false) {
         container = NSPersistentContainer(name: "Car")
         
@@ -27,7 +27,7 @@ struct PersistenceController {
         container.viewContext.automaticallyMergesChangesFromParent = true
     }
     
-    func save(context: NSManagedObjectContext) {
+    private func save(context: NSManagedObjectContext) {
         do {
             try context.save()
         } catch {
@@ -70,11 +70,8 @@ struct PersistenceController {
     
     func deleteAllCars(context: NSManagedObjectContext) {
         let fetchRequest = Car.fetchRequest()
-        let cars = try? context.fetch(fetchRequest)
         
-        for car in cars ?? [] {
-            context.delete(car)
-        }
+        try? context.fetch(fetchRequest).forEach { context.delete($0) }
         
         save(context: context)
     }

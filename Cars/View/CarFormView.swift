@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CarFormView: View {
-    @Environment(\.managedObjectContext) var managedObjContext
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.managedObjectContext) private var managedObjContext
+    @Environment(\.dismiss) private var dismiss
     
     @ObservedObject private var carFormViewModel: CarFormViewModel
     
@@ -28,21 +28,9 @@ struct CarFormView: View {
     
     var body: some View {
         VStack {
-            if let image = carFormViewModel.selectedImage {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(7)
-                    .padding(.top, 20)
-                    .padding(.bottom, 15)
-            } else {
-                Image("NoImage")
-                    .resizable()
-                    .scaledToFit()
-                    .cornerRadius(7)
-                    .padding(.top, 20)
-                    .padding(.bottom, 15)
-            }
+            CarImageView(uiImage: carFormViewModel.selectedImage)
+                .padding(.top, 20)
+                .padding(.bottom, 15)
             
             VStack(alignment: .center, spacing: 26) {
                 CustomTextField(placeHolder: "Name of model car", text: $carFormViewModel.model)
@@ -54,7 +42,6 @@ struct CarFormView: View {
                 ColorPicker("Color", selection: $carFormViewModel.color)
                     .padding()
                     .fontWeight(.bold)
-                    .foregroundColor(Color("Element"))
                     .background(.purple)
                     .cornerRadius(15)
                 
@@ -65,7 +52,6 @@ struct CarFormView: View {
                 .background(.purple)
                 .cornerRadius(10)
                 .fontWeight(.bold)
-                .foregroundColor(Color("Element"))
                 .sheet(isPresented: $carFormViewModel.isImagePickerPresented) {
                     ImagePicker(selectedImage: $carFormViewModel.selectedImage)
                 }
@@ -81,7 +67,6 @@ struct CarFormView: View {
                     }
                 })
                 .font(.headline)
-                .foregroundColor(Color("Element"))
                 .padding()
                 .background(.green)
                 .cornerRadius(10)
@@ -93,10 +78,10 @@ struct CarFormView: View {
                     VStack {
                         Text(title)
                             .bold()
-                            .foregroundColor(Color("Element"))
                     }
                 }
             }
+            .foregroundColor(Color("Element"))
         }
         .interactiveDismissDisabled()
         .background(Color("Background"))
