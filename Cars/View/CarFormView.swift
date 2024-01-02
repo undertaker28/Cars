@@ -33,9 +33,9 @@ struct CarFormView: View {
                 .padding(.bottom, 15)
             
             VStack(alignment: .center, spacing: 26) {
-                CustomTextField(placeHolder: "Name of model car", text: $carFormViewModel.model)
+                CustomTextField(placeHolder: "Name of model", text: $carFormViewModel.model)
                 
-                CustomTextField(placeHolder: "Name of producer car", text: $carFormViewModel.producer)
+                CustomTextField(placeHolder: "Name of producer", text: $carFormViewModel.producer)
                 
                 YearPicker(selectedDate: $carFormViewModel.selectedDate)
                 
